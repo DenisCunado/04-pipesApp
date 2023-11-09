@@ -1,0 +1,18 @@
+<h1>Números en castellano</h1>
+<ul>
+  <li *ngFor="let valor of vector">
+	{{valor | aletras}}
+  </li>
+</ul>
+<h1>Números en inglés</h1>
+<ul>
+  <li *ngFor="let valor of vector">
+	{{valor | aletras:'ingles'}}
+  </li>
+</ul>
+<h1>Números en portugués</h1>
+<ul>
+  <li *ngFor="let valor of vector">
+	{{valor | <abbr title=""></abbr>letras:'portugues'}}
+  </li>
+</ul>

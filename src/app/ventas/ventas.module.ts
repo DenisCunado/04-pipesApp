@@ -10,6 +10,9 @@ import { VuelaPipe } from './pipes/vuela.pipe';
 import { ColorPipe } from './pipes/color.pipe';
 import { OrdenarPipe } from './pipes/ordenar.pipe';
 
+import { LetrasComponent } from './pages/letras/letras.component';
+import { AletrasPipe } from './pipes/aletras.pipe';
+
 
 
 @NgModule({
@@ -21,7 +24,9 @@ import { OrdenarPipe } from './pipes/ordenar.pipe';
     MayusculasPipe,
     VuelaPipe,
     ColorPipe,
-    OrdenarPipe
+    OrdenarPipe,
+    LetrasComponent,
+    AletrasPipe
   ],
   imports: [
     CommonModule,
